@@ -12107,6 +12107,25 @@ textarea.form-control-lg {
   max-width: 100%;
   margin-bottom: 15px;
 }
+.contianer-body .trending__pills {
+  width: 830px;
+  max-width: 100%;
+  margin: auto;
+}
+.contianer-body .trending__pills button {
+  font-size: 14px;
+  font-weight: 600;
+}
+.contianer-body .recently-bought {
+  font-size: 14px;
+}
+.contianer-body .recently-bought__box__title {
+  min-height: 42px;
+}
+.contianer-body .recently-bought__box__buy {
+  width: 225px;
+  max-width: 100%;
+}
 @media only screen and (min-width: 768px) {
   .contianer-body .carousel-indicators button {
     width: 15px;
@@ -12153,4 +12172,14 @@ textarea.form-control-lg {
 
 .container {
   max-width: 1440px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  h2, .h2 {
+    font-size: 36px;
+  }
 }
