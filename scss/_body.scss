@@ -1,0 +1,118 @@
+.contianer-body {
+
+    .carousel-indicators {
+        button {
+            border-radius: 100%;
+            width: 8px;
+            height: 8px;
+        }
+    }
+    .discount-card {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        &__top {
+            font-weight: 600;
+        }
+        &__price {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 15px;
+            font-weight: 800;
+        }
+        &__bottom {
+            font-size: 10px;
+            font-weight: 400;
+        }
+    }
+    .deals-btn {
+        font-size: 12px;
+        min-width: 150px;
+    }
+    .banner-fullwidth {
+        background-image: url("../images/bg-dark-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #000;
+        background-position: left center;
+
+        &__title {
+            font-size: 28px;
+            font-weight: 800;
+        }
+        &__text {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .shop-now-btn {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+    .trending {
+        max-width: 1020px;
+
+        &__desc {
+            font-size: 14px;
+        }
+        &__box {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+        &__box__img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .carousel-indicators {
+            button {
+                width: 15px;
+                height: 15px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        .discount-card {
+            &__price {
+                font-size: 32px;
+            }
+            &__text {
+                font-size: 18px;
+            }
+            &__bottom {
+                font-size: 10px;
+            }
+        }
+        .deals-btn {
+            font-size: 18px;
+            white-space: nowrap;
+        }
+        .banner-fullwidth {
+            &__title {
+                font-size: 32px;
+            }
+            &__text {
+                font-size: 18px;
+            }
+            .shop-now-btn {
+                font-size: 18px;
+            }
+        }
+        .trending {
+            &__box {
+                a {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+}
